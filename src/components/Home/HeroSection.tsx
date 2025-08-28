@@ -7,6 +7,7 @@ import notion from "@/assets/icons/notion.svg";
 import netflix from "@/assets/icons/netflix.svg";
 import zoom from "@/assets/icons/zoom.svg";
 import Image from "next/image";
+import Button from "../shared/Button";
 
 const HeroSection = () => {
   return (
@@ -25,9 +26,7 @@ const HeroSection = () => {
               services including SEO, PPC, social media marketing, <br />
               and content creation.
             </p>
-            <button className="text-[20px] leading-[28px] bg-black text-white px-6 py-2.5 rounded-lg mt-8">
-              Book a consultation
-            </button>
+            <Button>Book a consultation</Button>
           </div>
         </div>
         <div>
@@ -39,9 +38,7 @@ const HeroSection = () => {
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button className="text-[20px] w-full leading-[28px] bg-black text-white px-6 py-2.5 rounded-lg mt-8">
-            Book a consultation
-          </button>
+          <Button className="w-full">Book a consultation</Button>
         </div>
       </div>
       <div className="hidden md:flex items-center justify-between  mt-8 md:mt-12">
