@@ -4,7 +4,7 @@ import CaseStudiesSwiper from "../shared/CaseStudiesSwiper";
 const CaseStudies = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-8">
+      <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-5 md:gap-8">
         <h1>
           <span className="bg-[#B9FF66] text-[40px] px-2 rounded-lg font-space-grotesk text-wrap">
             Case Studies
