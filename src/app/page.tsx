@@ -2,6 +2,7 @@ import CaseStudies from "@/components/Home/CaseStudies";
 import HeroSection from "@/components/Home/HeroSection";
 import Services from "@/components/Home/Services";
 import Team from "@/components/Home/Team";
+import Testimonials from "@/components/Home/Testimonials";
 import WorkingProcess from "@/components/Home/WorkingProcess";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <CaseStudies />
       <WorkingProcess />
       <Team />
+      <Testimonials />
     </div>
   );
 }
