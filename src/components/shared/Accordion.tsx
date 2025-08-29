@@ -10,7 +10,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto space-y-4 ">
+    <div className="w-full max-w-[1300px] mx-auto space-y-4 ">
       {accordionData.map((item, index) => (
         <div
           key={index}

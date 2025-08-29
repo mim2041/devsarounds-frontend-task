@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${spaceGrotesk.variable} antialiased`}>
         <Navbar />
-        <div className="pt-24 md:pt-40 px-6 md:px-0 max-w-[1440px] mx-auto w-full font-space-grotesk">
+        <div className="pt-24 md:pt-40 px-6 md:px-0 max-w-[1300px] mx-auto w-full font-space-grotesk">
           {children}
         </div>
       </body>

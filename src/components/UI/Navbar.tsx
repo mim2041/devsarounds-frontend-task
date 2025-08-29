@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className={`flex items-center justify-between p-6 md:p-12 lg:px-52 fixed w-full lg:py-8 z-50 ${
+        className={`flex items-center justify-between p-6 md:px-8 lg:px-72 fixed w-full lg:py-8 z-50 ${
           isSidebarOpen ? "bg-white/50" : "bg-white"
         }`}
       >
