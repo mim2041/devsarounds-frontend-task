@@ -27,3 +27,7 @@ body {
 .font-grotesk {
   font-family: var(--font-space-grotesk), sans-serif;
 }
+
+.swiper-pagination {
+  display: none !important;
+}
