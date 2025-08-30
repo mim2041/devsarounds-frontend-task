@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevsArounds Frontend Task
 
-## Getting Started
+A modern, responsive landing page built with Next.js, featuring smooth animations and mobile-first design principles.
 
-First, run the development server:
+## 🚀 Features
+
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices
+- **Modern UI**: Clean and professional interface built with Tailwind CSS
+- **Smooth Animations**: Enhanced user experience with Framer Motion animations
+- **Interactive Components**: Engaging sliders and carousels powered by Swiper
+- **Performance Optimized**: Built on Next.js for fast loading and SEO optimization
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) - React framework for production
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) - Motion library for React
+- **Sliders**: [Swiper](https://swiperjs.com/) - Modern mobile touch slider
+- **Language**: TypeScript/JavaScript
+- **Package Manager**: npm/yarn/pnpm
+
+## 📋 Prerequisites
+
+Before running this project, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16.x or higher)
+- npm, yarn, or pnpm package manager
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/mim2041/devsarounds-frontend-task
+   cd devsarounds-frontend-task
+   ```
+
+2. **Install dependencies**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Using yarn:
+
+   ```bash
+   yarn install
+   ```
+
+   Using pnpm:
+
+   ```bash
+   pnpm install
+   ```
+
+## 🚀 Running the Application
+
+### Development Mode
+
+To start the development server:
+
+Using npm:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Using yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Using pnpm:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+The application will be available at [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Production Build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To create an optimized production build:
 
-## Deploy on Vercel
+```bash
+npm run build
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Other Commands
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Lint the code**: `npm run lint`
+- **Type checking**: `npm run type-check` (if using TypeScript)
+
+### Live Link
+
+You can view the website [here](https://positivus.dev).
+
+## 📱 Responsive Breakpoints
+
+The landing page is optimized for the following breakpoints:
+
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px and above
+
+## 📂 Project Structure
+
+```
+├── components/          # Reusable UI components
+├── pages/              # Next.js pages
+├── public/             # Static assets
+├── styles/             # Global styles and Tailwind config
+├── utils/              # Utility functions
+├── types/              # TypeScript type definitions
+└── README.md
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 📞 Support
+
+If you have any questions or need help with setup, please reach out or create an issue in the repository.
+
+---
+
+**Built with ❤️ for DevsArounds**
