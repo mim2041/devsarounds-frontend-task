@@ -97,7 +97,7 @@ npm run start
 
 ### Live Link
 
-You can view the website [here](https://positivus.dev).
+You can view the website [https://devsarounds-frontend-task.vercel.app/](https://devsarounds-frontend-task.vercel.app/).
 
 ## 📱 Responsive Breakpoints
 
