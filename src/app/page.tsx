@@ -5,7 +5,6 @@ import Team from "@/components/Home/Team";
 import Testimonials from "@/components/Home/Testimonials";
 import WorkingProcess from "@/components/Home/WorkingProcess";
 import ContactUs from "../components/Home/ContactUs";
-import Footer from "@/components/Home/Footer";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Team />
       <Testimonials />
       <ContactUs />
-      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/UI/Navbar";
+import Footer from "@/components/UI/Footer";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <div className="pt-24 md:pt-40 px-6 md:px-0 max-w-[1300px] mx-auto w-full font-space-grotesk">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
