@@ -100,7 +100,7 @@ const TestimonialSlider = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.1 + 0.2 }}
                   >
-                    "{testimonial.description}"
+                    &quot;{testimonial.description}&quot;
                   </motion.p>
                 </motion.div>
 

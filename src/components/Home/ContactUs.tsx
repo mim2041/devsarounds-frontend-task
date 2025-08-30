@@ -92,13 +92,13 @@ const ContactUs = () => {
           className="hidden md:block text-[18px]"
           variants={headerVariants}
         >
-          Connect with Us: Let's Discuss Your Digital Marketing Needs
+          Connect with Us: Let&apos;s Discuss Your Digital Marketing Needs
         </motion.p>
         <motion.p
           className="md:hidden text-center text-sm"
           variants={headerVariants}
         >
-          Connect with Us: Let's Discuss Your Digital Marketing Needs
+          Connect with Us: Let&apos;s Discuss Your Digital Marketing Needs
         </motion.p>
       </motion.div>
 
